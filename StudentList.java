@@ -4,6 +4,12 @@ import java.util.*;
 public class StudentList {
 public static void main(String[] args) {
 //		Check arguments
+		if(args[0]!="a")
+		{
+			System.out.println("the arguments are wrong ");	
+			System.exit();	
+		}
+
 		if(args[0].equals("a"))
 	        {
 			System.out.println("Loading data ...");		
